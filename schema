@@ -1,0 +1,28 @@
+School Course:hm
+    name:string -> required
+
+
+Course Group:hm School:bt
+    name:string,50:unique -> required
+    description:string,500:nullable
+    timestamps
+
+Group Student:hm Course:bt
+    start:datetime -> required
+    stationarity:string -> required
+    hours:string -> requierd
+    timestamps
+
+Student Group:bt
+    firstname:string,255 -> required
+    lastname:string,255 -> required
+    email:string,100 -> required
+    telephone:string,30 -> required
+    comments:text
+    paid:boolean
+    confirmed:boolean
+    timestamps
+
+User
+    login:string:unique -> required
+    password:string -> required
