@@ -34,7 +34,13 @@
 */
 
 return array(
-
-	'docs' => array('handles' => 'docs'),
-
+	'larry',
+	'bob',
+	'former'=>array('auto'=>1),
+	'faker',
+	'console'=>array('auto'=>1),
+	'anbu'=>array('auto'=>1),
+	'fireabnu'=>array('auto'=>1),
+	'messages',
+	'plant',
 );
